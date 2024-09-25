@@ -5,9 +5,9 @@ let ip16Pro = document.getElementById("iPhone16pro");
 let airpods = "images/airpod.png";
 let airpodsANC = "images/airpods4.png";
 let iphone16 = "images/iPhone 16.png";
-let iphone16pro = "images/iPhone 16 Pro.png";
+let iphone16pro = "images/ip16PRO.png";
 let iphone15plus = "images/iPhone15PLUS.png";
-let iphone15pro = "images/iPhone 15 Pro.png";
+let iphone15pro = "images/ip15PRO.png";
 let series10 = "images/iWatch.png";
 let ultra2 = "images/iWatch ultra 2.png";
 
