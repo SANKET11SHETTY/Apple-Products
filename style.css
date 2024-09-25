@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  background: #9796f0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fbc7d4,
+    #9796f0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fbc7d4,
+    #9796f0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  box-shadow: white 0px 10px 20px, white 0px 6px 6px;
+  padding: 0 !important;
+}
+
+.card {
+  width: 100%;
+  padding: 4em;
+  background-color:black !important;
+  color: white;
+}
+
+.row {
+  margin: 0;
+}
+
+.path {
+  color: grey;
+  margin-bottom: 1rem;
+}
+
+.path a {
+  color: white !important;
+}
+
+.info {
+  padding: 6vh 0vh;
+}
+
+.title h1 {
+ font-size: 2.2rem;
+ padding-bottom: 10px;
+}
+
+.title p {
+  letter-spacing: 1.3px;
+  font-family: "Mukta";
+}
+
+.checked {
+  color: rgb(255, 217, 0);
+  margin-right: 10px;
+}
+
+img {
+  height: 100px;
+  width: 75%;
+  padding: 1rem;
+}
+
+.fa-heart {
+  font-size: 2rem;
+  color: white;
+  font-weight: lighter;
+}
+
+.fa-heart:hover {
+  color: crimson !important;
+}
+
+#reviews {
+  margin-left: 3vh;
+  color: grey;
+}
+
+.price {
+  margin-top: 2rem;
+  margin-left: 0px !important;
+}
+
+label.radio span {
+  padding: 1.5vh 6vh;
+  background: rgb(54, 54, 54);
+  color: grey;
+  display: inline-block;
+  margin-right: 2vh;
+}
+
+label.radio input:checked + span {
+  color: white;
+  border: 1px solid white;
+}
+
+label.radio input {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+label.radio {
+  cursor: pointer;
+}
+
+.carousel-control-prev {
+  width: 0;
+}
+.carousel-control-next {
+  left: 10vh;
+  right: unset;
+}
+
+.lower {
+  margin-top: 2rem;
+}
+
+.lower .col {
+  padding: 0;
+}
+
+.lower .btn {
+  background: transparent;
+  border-color: rgb(255, 217, 0);
+  color: rgb(255, 217, 0);
+  padding: 1.5vh 4vh;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.lower .btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  border-color: white !important;
+  border-radius: 2px;
+
+  background: rgb(255, 217, 0);
+  transition: 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.lower .btn:hover:before {
+  left: 0;
+  z-index: -1;
+  border-color: white !important;
+  border-radius: 2px;
+}
+.lower .btn span {
+  color: rgb(255, 217, 0);
+
+  transition: 0.5s ease-in-out;
+  z-index: 100;
+}
+
+.lower .btn:hover span {
+  color: black !important;
+  z-index: 1;
+}
+
+a:hover {
+  color: unset !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.iPhone15PLUS img {
+  height: 400px !important;
+}
